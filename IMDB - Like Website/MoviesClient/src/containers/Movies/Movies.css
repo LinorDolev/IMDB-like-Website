@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.Title{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+.Movie{
+    font-size: 20px;
+    font-family:  var(--title-font);
+    color: darksalmon;
+}
+
+.FlexGridItem{
+    margin: 5px
+}
+
+.Loader{
+    position: absolute;
+    top: 80% !important;
+}
+
+.MoviesContainer{
+  display: inline-block;
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+  /* padding-bottom: 5px; */
+  color: white;
+}

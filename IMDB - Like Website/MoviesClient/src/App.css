@@ -1,0 +1,39 @@
+
+
+.App {
+  text-align: center;
+}
+.CinemaNavbar{
+  opacity: 0.5;
+  font-family: var(--title-font);
+  background-color: rgb(239, 154, 247) !important;
+}
+
+.rs-nav-item > .rs-nav-item-content{
+  font-size: 25px !important;
+}
+
+.Container{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+.Logo{
+  opacity: 1 !important;
+  animation: roll, rotate linear;
+  animation-name: roll;
+  animation-duration: 4s, 4s;
+}
+
+@keyframes roll{
+
+  from { transform: translateX(100vw)  rotate(1080deg) }
+  to  { transform: translateX(0px) rotate(0deg)}
+
+}
+
+@keyframes rotate{
+  from {transform: rotate(0deg);}
+  to {transform:rotate(360deg);}
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
+body {
+  --title-font: 'Lato', sans-serif;
+
+  background-image: url(https://images.hdqwalls.com/download/colors-constellation-dark-night-sky-5k-r7-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

@@ -1,0 +1,27 @@
+.FieldLabel{
+    font-size: 20px !important;
+}
+
+.Category{
+    width: 224 !important;
+}
+
+.SelectModalButton{
+    z-index: 100;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 20px;
+}
+
+.rs-modal-content{
+    background-color:  rgb(44, 31, 44)!important;
+    color: white;
+    border: 3px solid rgb(131, 91, 131);
+}
+.rs-btn{
+    background-color: rgba(192, 93, 231, 0.808) !important;
+    color: rgb(192, 248, 255) !important;
+    font-family: var(--title-font);
+    font-style: bold;
+}
